@@ -1,0 +1,27 @@
+{
+  "name": "checkpoint-mongose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "npx nodemon server",
+    "frontend": "cd client && npm start",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "dotenv": "^10.0.0"
+  }
+}
